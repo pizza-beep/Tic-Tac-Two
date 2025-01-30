@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Abilities Edition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1e1e1e;
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        button {
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Two</h1>
+    <div class="menu">
+        <button onclick="startGame()">Start Game</button>
+        <button onclick="openSettings()">Settings</button>
+        <button onclick="openTutorial()">How to Play</button>
+    </div>
+
+    <script>
+        function startGame() {
+            alert("Starting game..."); // Link to page for the game goes here
+        }
+        function openSettings() {
+            alert("Opening settings..."); // link 2 page for settings
+        }
+        function openTutorial() {
+            alert("Showing tutorial..."); // link to pdf for now
+        }
+    </script>
+</body>
+</html>
+
